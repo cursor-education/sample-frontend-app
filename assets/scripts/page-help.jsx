@@ -1,4 +1,4 @@
-# https://babeljs.io/repl/
+// https://babeljs.io/repl/
 
 let inc = (b) => b + 1
 
