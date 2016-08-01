@@ -1,3 +1,11 @@
+@import 'const.scss';
+@import 'mixins.scss';
+
 body {
-  background: red;
+    background: $base-color;
+    font-color: $font-color;
+}
+
+a.test {
+    @include link(white, red, bklue, green);
 }
